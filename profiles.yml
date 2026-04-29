@@ -1,0 +1,13 @@
+dbt_learn_repos:
+  outputs:
+    dev:
+      account: TVMGDKV-UV48515
+      database: RAW
+      password: M@m978558687890
+      role: Accountadmin
+      schema: staging
+      threads: 1
+      type: snowflake
+      user: Saurabh
+      warehouse: COMPUTE_WH
+  target: dev
